@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lunch Special Menu</title>
+		<style>
+			
+				
+			
+			form{
+				border: 1px solid black;
+				 margin: 20%;
+				 padding-left: 20%;  
+				background-color: blanchedalmond;
+			
+			}
+			#red {
+				color: brown;
+				margin-bottom: 10px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<div>
+				<h1>Lunch Special</h1>
+				<h3>Monday thru Friday,11am - 3pm</h3>
+				<h2>$9.95 (plus tax)</h2>
+			</div>
+			<div>
+				<input
+					type="text"
+					name="options"
+					placeholder="sandwich type" /><br /><br />
+				<input type="radio" name="options" id="here" />
+				<label for="here">Here</label><br />
+				<input type="radio" name="options" id="togo" />
+				<label for="togo">To Go</label>
+			</div>
+
+			<h2>Sandwich</h2>
+
+			<div >
+				<label for="week">Monday</label><br /><br />
+				<input type="radio" name="week" id="Tomato Mozzarella" />
+				<label for="Tomato Mozzarella">Tomato Mozzarella</label><br />
+				<input type="radio" name="week" id="Chicken Salad" />
+				<label for="Chicken Salad">Chicken Salad</label><br /><br />
+				<label for="week">Tuesday</label><br /><br />
+				<input type="radio" name="week" id="Greek Salad" />
+				<label for="Greek Salad">Greek Salad Wrap</label><br />
+				<input type="radio" name="week" id="toto" />
+				<label for="toto">Toto Wrap</label><br /><br />
+				<label for="week"></label>Wednesday<br /><br />
+				<input type="radio" name="week" id="red pepper" />
+				<label for="red pepper">Red Pepper Hummus</label><br />
+				<input type="radio" name="week" id="turkey" />
+				<label for="turkey">Roasted turkey</label><br /><br />
+				<label for="week"></label>Thursday<br /><br />
+				<input type="radio" name="week" id="carrot" />
+				<label for="carrot">Carrot-Ginger Hummus Wrap</label><br />
+				<input type="radio" name="week" id="egg" />
+				<label for="egg">Egg Salad</label><br /><br />
+				<label for="week"></label>Friday<br /><br />
+				<input type="radio" name="week" id="dado" />
+				<label for="dado">Dado Wrap</label><br />
+				<input type="radio" name="week" id="tuna" />
+				<label for="tuna">Tuna Salad</label><br /><br />
+				<input type="checkbox" id="Gluten" name="Gluten" value="Bread" />
+				<label for="Gluten"
+					><b id="red">75<span>&#162; </span>extra for Gluten Free Bread</b>
+				</label>
+			</div>
+			<div style="color: brown;border: 1px solid;width: 25% height 25%;">
+				<h2>snack</h2>
+				<input type="radio" name="nibble" id="Apple" />
+				<label for="Apple">Apple</label><br />
+				<input type="radio" name="nibble" id="banana" />
+				<label for="banana">Banana</label><br />
+
+				<input type="radio" name="nibble" id="potato" />
+				<label for="potato">Potato Chips</label><br /><br />
+			</div>
+			<div style="color: rgba(0, 0, 1, 0.768);border: 1px solid ">
+				<label for="level"><b>Select regular size drink</b></label>
+				<dl>
+					<dt>Coffee type</dt>
+				<dd>Coffee</dd>
+				<dd>Iced Coffee</dd>
+				<dt>Green Tea</dt>
+				<dd>Hot Sencha Green Tea</dd>
+				<dd>Iced Sencha Green Tea</dd>
+				<dt>Keemun Tea</dt>
+				<dd>Hot Keemun Black tea</dd>
+				<dd>Iced Keemun Black Tea</dd>
+				</dl>
+				
+				<select id="level" name="level">
+					<option value="0">Coffee</option>
+					<option value="1">Iced Coffee</option>
+					<option value="2">Organic Peppermint</option>
+					<option value="3">Hot Sencha Green Tea</option>
+					<option value="4">Iced Sencha Green Tea</option>
+					<option value="5">Hot Keemun Black tea</option>
+					<option value="6">Iced Keemun Black tea</option>
+				</select>
+			</div><br>
+
+			<div>
+				<input
+					type="checkbox"
+					name="bubble"
+					id="bubble"
+					name="bubble"
+					value="bubble Tea" />
+				<label for="bubble"
+					><b id="red"
+						>75<span>&#162; </span>extra for any regular size Bubble Tea
+					</b></label
+				><br>
+
+				<input type="checkbox" id="Drink" name="Drink" value="Large Drink" />
+				<label for="Gluten"
+					><b id="red">75<span>&#162; </span>extra For Large Drink</b>
+				</label>
+			</div>
+
+			<div>
+				<h2>
+					<span>&#126;</span><i><b>NO SUBSTITUTIONS</b></i
+					><span>&#126;</span>
+				</h2>
+			</div>
+			<div>
+				<!-- <button type="reset">RESET</button> -->
+				<button id="red" type="submit">SUBMIT</button>
+			</div>
+		</form>
+	</body>
+</html>
